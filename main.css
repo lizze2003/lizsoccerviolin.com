@@ -2,16 +2,9 @@
       color:darkviolet;
       background-color:mediumspringgreen;
       font-family:verdana;
-      text-align: left;
+      text-align:center;
       width: 75%
     }
-    .header{
-      color:silver;
-      font-size: 40px;
-      font-family: countier;
-      border:5px solid #ff66ff
-    }
-    
     body {
       background: linear-gradient(to bottom, #00ffff 0%, #ff66ff 100%);
       text-align: center;
