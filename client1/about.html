@@ -1,0 +1,69 @@
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+          background:linear-gradient(to bottom right, #00ffff 10%, #000000 100%);
+}
+table{
+          font-family:arial, sans-serif;
+          border-collapse:collapse;
+          width:100%;
+          height:425px;
+          font-size:30px
+    }
+    td, th{
+           border:3px solid black;
+           text-align:center;
+           padding: 8px;
+    }
+    tr:nth-child(even){
+                       background-color: #dddddd;
+    }
+div{
+    text-align:center;
+     font-size:150px
+}
+h1{
+     text-align:center; 
+}
+h2{
+   text-align:center;
+    font-size:50px;
+     color:navy
+}
+</head>
+<body> 
+  <h2 class="well well-sm">Order Form</h2>
+<h1><form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br>
+  Address: <br>
+  <input type="text" name="address">
+    <br><br>                              
+  <input type="submit" value="Submit">
+  </form> </h1>
+<table>
+  <tr>
+    <th><ins>Product Packages</th>
+    <th><ins>The Cost</th>
+  </tr>
+  <tr>
+    <td><a href="http://output.jsbin.com/vunofot/3/">basic cleaning</a></td>
+    <td>$50</td>
+  </tr>
+  <tr>
+    <td><a href="http://output.jsbin.com/nusoxuh/14/">Sparkle Shine</a></td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td><a href="http://output.jsbin.com/gasosob/4/">Cleaning Party</td>
+    <td>$150</td>
+  </tr>
+</table>
